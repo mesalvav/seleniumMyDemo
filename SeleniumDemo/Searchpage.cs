@@ -21,7 +21,7 @@ namespace SeleniumDemo
             // driver.Navigate().GoToUrl("https://cvdosforfiu.azurewebsites.net");
             driver.Navigate().GoToUrl("http://mywebappforfiu.azurewebsites.net");
 
-            Console.WriteLine("=============>>>>>>> Test completed");
+            Console.WriteLine("=========>>>>>>> Test completed");
         }
     }
 }
