@@ -26,7 +26,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: false
-    projects: '**/SeleniumDemo.csproj'
+    projects: '**/SeleniumDemoTest.csproj'
     arguments: '--configuration Release -o $(build.artifactstagingdirectory)'
     zipAfterPublish: false
     modifyOutputPath: false
